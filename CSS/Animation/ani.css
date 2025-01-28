@@ -1,0 +1,18 @@
+#main{
+    height:250px;
+    background-color: #e60b0b;
+    color: #ffffff;
+    animation: pinky 10s infinite normal ease-in;
+}
+ 
+@keyframes pinky{
+    0%{
+        background-color: #ffffff;
+    }
+    50%{
+        background-color: #000000;
+    }
+    100%{
+        background-color: #ffffff;
+    }
+}
